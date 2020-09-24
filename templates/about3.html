@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+mark {
+  text-align:left;
+  background-color:#fff;
+  style="color:white;"
+  opacity: 0.9;
+}
+mark1 {
+  text-align:left;
+}
+mark2 {
+ background-color:#202e7d;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 19%;
+  margin-bottom: 18px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 35px;
+  
+  background-color: #474e5d;
+  background-image:url("https://img.freepik.com/free-vector/black-carbon-fiber-texture-background_1017-23627.jpg?size=626&ext=jpg");
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1 style="text-align:center;">About</h1>
+  <p style="font-size:19px; font-family:'Lucida Console', monospace"> The main goal of this project is to predict how much impurity is in the ore concentrate. The% of Silica is measured  in a lab experiment it takes at least one hour for the process engineers to have this value. As this impurity is measured every hour, if we can predict how much silica (impurity) is in the ore concentrate, we can help the engineers, giving them early information to take actions (empowering!). Hence, they will be able to take corrective actions in advance (reduce impurity, if it is the case) and also help the environment (reducing the amount of ore that goes to tailings as you reduce silica in the ore concentrate).<br><br>To predict the silica(impurity) % in the ore concentrate in a less time we are building a predictive analytics system in that we are applying various machine learning algorithms and find the best accurate model. Here web application will be used to display the prediction . The web application is built by using flask framework and it is integrated with trained ML model.</p>
+  
+</div>
+
+<h2 style="text-align:center;color:white;font-size:30px;"><mark2>Our Team</mark2></h2>
+<div class="row">
+  
+
+  <div class="column">
+    <div class="card">
+      <img src="https://scontent.fblr4-1.fna.fbcdn.net/v/t1.0-9/p843x403/119576912_1443557415833237_8502445447198158270_o.jpg?_nc_cat=101&_nc_sid=730e14&_nc_ohc=6uTw2ODrtrUAX_phu2S&_nc_ht=scontent.fblr4-1.fna&tp=6&oh=0c494a5994198425393edad15bb828bc&oe=5F8A171A" alt="Abhishek" width="320" height="330" style="width:100%">
+      <div class="container">
+        <h2>Abhishek</h2>
+        <p class="title">4BD17CS003</p>
+        <p>7th Semester 'A' section<br>Computer Science and Engineering<br>BIET Davanagere</p>
+        <p>9900679224abhi@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://scontent.fblr4-1.fna.fbcdn.net/v/t1.0-9/p720x720/119470760_1443560482499597_4071990297986846089_o.jpg?_nc_cat=109&_nc_sid=730e14&_nc_ohc=szKiuje_ZtcAX8EdL2F&_nc_ht=scontent.fblr4-1.fna&tp=6&oh=421779d13dc1ce06c13da860a057e77b&oe=5F8A53EB" alt="aman" width="320" height="330" style="width:100%">
+      <div class="container">
+        <h2>Aman Anand</h2>
+        <p class="title">4BD17CS006</p>
+        <p>7th Semester 'B' section<br>Computer Science and Engineering<br>BIET Davanagere</p>
+        <p>amananand@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://scontent.fblr4-2.fna.fbcdn.net/v/t1.0-9/p843x403/119380268_1443560452499600_316597052118406659_o.jpg?_nc_cat=100&_nc_sid=730e14&_nc_ohc=lEvOKgU0AnMAX-PW4Rw&_nc_oc=AQm4msjOGXT3g06p69uwZnm8_MQrhSy_V7N2Vbr_7rIqkToXi_GKZOKVJouyb_1iOJID95g1izv355zAMYZGiO6s&_nc_ht=scontent.fblr4-2.fna&tp=6&oh=6104758c0f3bb1d17084bc0a228214d7&oe=5F88AE27" alt="Lokesha" width="320" height="330" style="width:100%">
+      <div class="container">
+        <h2>Lokesha E J</h2>
+        <p class="title">4BD17CS057</p>
+        <p>7th Semester 'A' section<br>Computer Science and Engineering<br>BIET Davanagere</p>
+        <p>lokesh12215@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://scontent.fblr4-2.fna.fbcdn.net/v/t1.0-9/p720x720/119666218_1443560529166259_1947774749500628706_o.jpg?_nc_cat=108&_nc_sid=730e14&_nc_ohc=YMGtSMriX1YAX9vgjk5&_nc_oc=AQlRq1x9zP_oNrx2GuZmcwSa-0WjiSJD77iPQH_EJZCvOyatweA5hpMQpbN1vH7ZHXvT7q9EJDzegt03z55ORZ0C&_nc_ht=scontent.fblr4-2.fna&tp=6&oh=2ed18c17b6b02b69a5545e1f8944e818&oe=5F8A435B" alt="Punith" width="320" height="330"  style="width:100%">
+      <div class="container">
+        <h2>Punith B N</h2>
+        <p class="title">4BD17CS087</p>
+        <p>7th Semester 'A' section<br>Computer Science and Engineering<br>BIET Davanagere</p>
+        <p>punithbn100@gmail.com</p>
+        
+      </div>
+    </div>
+  </div>
+
+  
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://scontent.fblr4-1.fna.fbcdn.net/v/t1.0-9/s960x960/119454035_1443560512499594_5388067484467262780_o.jpg?_nc_cat=102&_nc_sid=730e14&_nc_ohc=vpWKybcCeoIAX_4RBEc&_nc_ht=scontent.fblr4-1.fna&tp=7&oh=672c22f53cbe7638c56f3cfba63f9dee&oe=5F8ACE26" alt="Venkatesh" width="320" height="330" style="width:100%">
+      <div class="container">
+        <h2 style="font-size:21px">Venketesh Pratap Mall</h2>
+        <p class="title">4BD17IS109</p>
+        <p>7th Semester 'A' section<br>Information Science and Engineering<br>BIET Davanagere</p>
+        <p>venketeshmall2@gmail.com</p>
+      </div>
+    </div>
+  </div>  
+
+  
+</div>
+
+</body>
+</html>
